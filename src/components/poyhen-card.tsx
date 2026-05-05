@@ -16,7 +16,7 @@ export function PoyhenCard() {
               referrerPolicy="no-referrer"
             />
           </div>
-          <h1 className="text-xl font-bold sm:text-2xl">poyhen</h1>
+          <h1 className="text-xl font-bold sm:text-2xl">furkan</h1>
           <p className="text-center text-sm sm:text-base">building smolbox rn</p>
         </div>
 
