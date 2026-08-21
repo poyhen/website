@@ -3,8 +3,8 @@ import '../styles/global.css';
 import { PoyhenCard } from "@/components/poyhen-card";
 export const prerender = false;
 
-const title = "furkan's place";
-const description = "furkan's personal page. working on it.";
+const title = "𝖋𝖆𝖎𝖗's place";
+const description = "𝖋𝖆𝖎𝖗's personal page. working on it.";
 const site = Astro.site ?? new URL(Astro.url.origin);
 const canonicalUrl = new URL(Astro.url.pathname, site).toString();
 const socialImageUrl = new URL('/social-preview.jpg', site).toString();
@@ -26,7 +26,7 @@ const socialImageUrl = new URL('/social-preview.jpg', site).toString();
 		<meta property="og:url" content={canonicalUrl} />
 		<meta property="og:site_name" content={title} />
 		<meta property="og:image" content={socialImageUrl} />
-		<meta property="og:image:alt" content="furkan's place profile image preview" />
+		<meta property="og:image:alt" content="𝖋𝖆𝖎𝖗's place profile image preview" />
 		<meta property="og:image:width" content="460" />
 		<meta property="og:image:height" content="460" />
 
